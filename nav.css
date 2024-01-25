@@ -1,0 +1,73 @@
+.at_P {
+  padding: auto;
+  text-align: justify;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img_size {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-items-container {
+  background-color: black;
+  padding: 20px 22px;
+}
+
+.nav-items-container li {
+  display: inline;
+}
+
+.nav-items-container li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #f2f2f2;
+  font-weight: 500;
+  transition: 0.8s linear;
+}
+
+.nav-items-container li:hover a {
+  background-color: #ddd;
+  color: black !important;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.content h2 {
+  color: black;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black; 
+  color: #fff; 
+  
+}
